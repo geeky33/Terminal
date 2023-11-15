@@ -26,3 +26,11 @@ body {
     rgb(var(--background-start-rgb)); */
     background-color: #15141B;
 }
+.term-1,.visit,.inputField p,.dollar{
+  color: #55DA7D;
+}
+.inputField input{
+  color: rgb(var(--foreground-rgb));
+  background-color: #15141B;
+  outline: none;
+}
