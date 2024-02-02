@@ -33,7 +33,7 @@ export default function Home() {
     <div className={'terminal p-2 flex flex-col gap-4 ' + fira.className}>
       <p className={'text-6xl term-1'}>harshal:sync~</p>
       <p className="text-4xl">type `start` to get started</p>
-      <p>let portfolioSite = {'() = > { '}<a href="https://harshal-ishere.vercel.app/" className="underline visit">visit</a>{' }'}</p>
+      <p>let portfolioSite = {'() = > { '}<a href="https://xyzharshal.social/" target='_blank' className="underline visit">visit</a>{' }'}</p>
       {history.map((e: HTMLElement) => e)}
       <div className="inputField flex flex-row gap-3">
         <p>$</p><input onChange={(e) => setInputChange(e.target.value)} value={inputChange} onKeyDown={handleKeyDown} className="w-1/2" />
